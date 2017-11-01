@@ -10,9 +10,9 @@ class Matricula:
         self.data_cancelamento = None
         self.data_confirmacao = None
 
-    def altera_aluno(self, aluno):
-        if type(aluno) == Aluno:
-            self.aluno = aluno
+    def altera_aluno(self, a):
+        if type(a) == Aluno:
+            self.aluno = a
             return True
         return False
     

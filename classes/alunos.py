@@ -16,4 +16,7 @@ class Aluno(Pessoa, Usuario):
     def retorna_sigla(self):
         return self.sigla_curso
 
+    def altera_celular(self, celular):
+        print("Alterando celular do aluno")
+        self.celular = celular
     
